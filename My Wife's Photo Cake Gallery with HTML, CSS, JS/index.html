@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delicious Cakes</title>
+    <link rel="stylesheet" href="css/main.css">
+
+    <script src=" libs/gsap.min.js" defer></script>
+    <script src="libs/Draggable.min.js " defer></script>
+    <script src=" libs/InertiaPlugin.min.js " defer></script>
+    <script src="js/app.js" defer></script>
+    <!--Defer lädt app.js später-->
+    <style>
+        .gallery {
+            opacity: 0;
+            /* schreiben Js Logik um Inhalt zu sehen*/
+        }
+    </style>
+</head>
+
+<body>
+    <h1 class="header"> My wife's cake is delicious <span>Loading...</span></h1>
+    <h6 class="copyright">Developed by <span> Petru Walter</span> &copy; 2022</h6>
+
+    <!-- .gallery>(.gallery__item*131>img[src="$.jpg" alt="Cakes Photo"])*4 -->
+
+
+    <div class="gallery">
+        <div class="gallery__item"><img src="img/1.jpg" alt="Cakes Photo"></div>
+        <div class="gallery__item"><img src="img/2.jpg" alt="Cakes Photo"></div>
+        <div class="gallery__item"><img src="img/3.jpg" alt="Cakes Photo"></div>
+        <div class="gallery__item"><img src="img/4.jpg" alt="Cakes Photo"></div>
+        <div class="gallery__item"><img src="img/5.jpg" alt="Cakes Photo"></div>
+        <div class="gallery__item"><img src="img/6.jpg" alt="Cakes Photo"></div>
+        <div class="gallery__item"><img src="img/7.jpg" alt="Cakes Photo"></div>
+        <div class="gallery__item"><img src="img/8.jpg" alt="Cakes Photo"></div>
+        <div class="gallery__item"><img src="img/9.jpg" alt="Cakes Photo"></div>
+        <div class="gallery__item"><img src="img/10.jpg" alt="Cakes Photo"></div>
+        <div class="gallery__item"><img src="img/11.jpg" alt="Cakes Photo"></div>
+        <div class="gallery__item"><img src="img/12.jpg" alt="Cakes Photo"></div>
+        <div class="gallery__item"><img src="img/13.jpg" alt="Cakes Photo"></div>
+        <div class="gallery__item"><img src="img/14.jpg" alt="Cakes Photo"></div>
+        <div class="gallery__item"><img src="img/15.jpg" alt="Cakes Photo"></div>
+        <div class="gallery__item"><img src="img/16.jpg" alt="Cakes Photo"></div>
+        <div class="gallery__item"><img src="img/17.jpg" alt="Cakes Photo"></div>
+        <div class="gallery__item"><img src="img/18.jpg" alt="Cakes Photo"></div>
+        <div class="gallery__item"><img src="img/19.jpg" alt="Cakes Photo"></div>
+        <div class="gallery__item"><img src="img/20.jpg" alt="Cakes Photo"></div>
+        <div class="gallery__item"><img src="img/21.jpg" alt="Cakes Photo"></div>
+        <div class="gallery__item"><img src="img/22.jpg" alt="Cakes Photo"></div>
+        <div class="gallery__item"><img src="img/23.jpg" alt="Cakes Photo"></div>
+        <div class="gallery__item"><img src="img/24.jpg" alt="Cakes Photo"></div>
+        <div class="gallery__item"><img src="img/25.jpg" alt="Cakes Photo"></div>
+        <div class="gallery__item"><img src="img/26.jpg" alt="Cakes Photo"></div>
+        <div class="gallery__item"><img src="img/27.jpg" alt="Cakes Photo"></div>
+        <div class="gallery__item"><img src="img/28.jpg" alt="Cakes Photo"></div>
+        <div class="gallery__item"><img src="img/29.jpg" alt="Cakes Photo"></div>
+        <div class="gallery__item"><img src="img/30.jpg" alt="Cakes Photo"></div>
+        <div class="gallery__item"><img src="img/31.jpg" alt="Cakes Photo"></div>
+        <div class="gallery__item"><img src="img/32.jpg" alt="Cakes Photo"></div>
+        <div class="gallery__item"><img src="img/33.jpg" alt="Cakes Photo"></div>
+        <div class="gallery__item"><img src="img/34.jpg" alt="Cakes Photo"></div>
+        <div class="gallery__item"><img src="img/35.jpg" alt="Cakes Photo"></div>
+        <div class="gallery__item"><img src="img/36.jpg" alt="Cakes Photo"></div>
+        <div class="gallery__item"><img src="img/37.jpg" alt="Cakes Photo"></div>
+        <div class="gallery__item"><img src="img/38.jpg" alt="Cakes Photo"></div>
+        <div class="gallery__item"><img src="img/39.jpg" alt="Cakes Photo"></div>
+        <div class="gallery__item"><img src="img/40.jpg" alt="Cakes Photo"></div>
+        <div class="gallery__item"><img src="img/41.jpg" alt="Cakes Photo"></div>
+        <div class="gallery__item"><img src="img/42.jpg" alt="Cakes Photo"></div>
+        <div class="gallery__item"><img src="img/43.jpg" alt="Cakes Photo"></div>
+        <div class="gallery__item"><img src="img/44.jpg" alt="Cakes Photo"></div>
+        <div class="gallery__item"><img src="img/45.jpg" alt="Cakes Photo"></div>
+        <div class="gallery__item"><img src="img/46.jpg" alt="Cakes Photo"></div>
+        <div class="gallery__item"><img src="img/47.jpg" alt="Cakes Photo"></div>
+        <div class="gallery__item"><img src="img/48.jpg" alt="Cakes Photo"></div>
+        <div class="gallery__item"><img src="img/49.jpg" alt="Cakes Photo"></div>
+        <div class="gallery__item"><img src="img/50.jpg" alt="Cakes Photo"></div>
+        <div class="gallery__item"><img src="img/51.jpg" alt="Cakes Photo"></div>
+        <div class="gallery__item"><img src="img/52.jpg" alt="Cakes Photo"></div>
+        <div class="gallery__item"><img src="img/53.jpg" alt="Cakes Photo"></div>
+        <div class="gallery__item"><img src="img/54.jpg" alt="Cakes Photo"></div>
+        <div class="gallery__item"><img src="img/55.jpg" alt="Cakes Photo"></div>
+        <div class="gallery__item"><img src="img/56.jpg" alt="Cakes Photo"></div>
+        <div class="gallery__item"><img src="img/57.jpg" alt="Cakes Photo"></div>
+        <div class="gallery__item"><img src="img/58.jpg" alt="Cakes Photo"></div>
+        <div class="gallery__item"><img src="img/59.jpg" alt="Cakes Photo"></div>
+        <div class="gallery__item"><img src="img/60.jpg" alt="Cakes Photo"></div>
+        <div class="gallery__item"><img src="img/61.jpg" alt="Cakes Photo"></div>
+        <div class="gallery__item"><img src="img/62.jpg" alt="Cakes Photo"></div>
+        <div class="gallery__item"><img src="img/63.jpg" alt="Cakes Photo"></div>
+        <div class="gallery__item"><img src="img/64.jpg" alt="Cakes Photo"></div>
+        <div class="gallery__item"><img src="img/65.jpg" alt="Cakes Photo"></div>
+        <div class="gallery__item"><img src="img/66.jpg" alt="Cakes Photo"></div>
+        <div class="gallery__item"><img src="img/67.jpg" alt="Cakes Photo"></div>
+        <div class="gallery__item"><img src="img/68.jpg" alt="Cakes Photo"></div>
+        <div class="gallery__item"><img src="img/69.jpg" alt="Cakes Photo"></div>
+        <div class="gallery__item"><img src="img/70.jpg" alt="Cakes Photo"></div>
+        <div class="gallery__item"><img src="img/71.jpg" alt="Cakes Photo"></div>
+        <div class="gallery__item"><img src="img/72.jpg" alt="Cakes Photo"></div>
+        <div class="gallery__item"><img src="img/73.jpg" alt="Cakes Photo"></div>
+        <div class="gallery__item"><img src="img/74.jpg" alt="Cakes Photo"></div>
+        <div class="gallery__item"><img src="img/75.jpg" alt="Cakes Photo"></div>
+        <div class="gallery__item"><img src="img/76.jpg" alt="Cakes Photo"></div>
+        <div class="gallery__item"><img src="img/77.jpg" alt="Cakes Photo"></div>
+        <div class="gallery__item"><img src="img/78.jpg" alt="Cakes Photo"></div>
+        <div class="gallery__item"><img src="img/79.jpg" alt="Cakes Photo"></div>
+        <div class="gallery__item"><img src="img/80.jpg" alt="Cakes Photo"></div>
+        <div class="gallery__item"><img src="img/81.jpg" alt="Cakes Photo"></div>
+        <div class="gallery__item"><img src="img/82.jpg" alt="Cakes Photo"></div>
+        <div class="gallery__item"><img src="img/83.jpg" alt="Cakes Photo"></div>
+        <div class="gallery__item"><img src="img/84.jpg" alt="Cakes Photo"></div>
+        <div class="gallery__item"><img src="img/85.jpg" alt="Cakes Photo"></div>
+        <div class="gallery__item"><img src="img/86.jpg" alt="Cakes Photo"></div>
+        <div class="gallery__item"><img src="img/87.jpg" alt="Cakes Photo"></div>
+        <div class="gallery__item"><img src="img/88.jpg" alt="Cakes Photo"></div>
+        <div class="gallery__item"><img src="img/89.jpg" alt="Cakes Photo"></div>
+        <div class="gallery__item"><img src="img/90.jpg" alt="Cakes Photo"></div>
+        <div class="gallery__item"><img src="img/91.jpg" alt="Cakes Photo"></div>
+        <div class="gallery__item"><img src="img/92.jpg" alt="Cakes Photo"></div>
+        <div class="gallery__item"><img src="img/93.jpg" alt="Cakes Photo"></div>
+        <div class="gallery__item"><img src="img/94.jpg" alt="Cakes Photo"></div>
+        <div class="gallery__item"><img src="img/95.jpg" alt="Cakes Photo"></div>
+        <div class="gallery__item"><img src="img/96.jpg" alt="Cakes Photo"></div>
+        <div class="gallery__item"><img src="img/97.jpg" alt="Cakes Photo"></div>
+        <div class="gallery__item"><img src="img/98.jpg" alt="Cakes Photo"></div>
+        <div class="gallery__item"><img src="img/99.jpg" alt="Cakes Photo"></div>
+        <div class="gallery__item"><img src="img/100.jpg" alt="Cakes Photo"></div>
+        <div class="gallery__item"><img src="img/101.jpg" alt="Cakes Photo"></div>
+        <div class="gallery__item"><img src="img/102.jpg" alt="Cakes Photo"></div>
+        <div class="gallery__item"><img src="img/103.jpg" alt="Cakes Photo"></div>
+        <div class="gallery__item"><img src="img/104.jpg" alt="Cakes Photo"></div>
+        <div class="gallery__item"><img src="img/105.jpg" alt="Cakes Photo"></div>
+        <div class="gallery__item"><img src="img/106.jpg" alt="Cakes Photo"></div>
+        <div class="gallery__item"><img src="img/107.jpg" alt="Cakes Photo"></div>
+        <div class="gallery__item"><img src="img/108.jpg" alt="Cakes Photo"></div>
+        <div class="gallery__item"><img src="img/109.jpg" alt="Cakes Photo"></div>
+        <div class="gallery__item"><img src="img/110.jpg" alt="Cakes Photo"></div>
+        <div class="gallery__item"><img src="img/111.jpg" alt="Cakes Photo"></div>
+        <div class="gallery__item"><img src="img/112.jpg" alt="Cakes Photo"></div>
+        <div class="gallery__item"><img src="img/113.jpg" alt="Cakes Photo"></div>
+        <div class="gallery__item"><img src="img/114.jpg" alt="Cakes Photo"></div>
+        <div class="gallery__item"><img src="img/115.jpg" alt="Cakes Photo"></div>
+        <div class="gallery__item"><img src="img/116.jpg" alt="Cakes Photo"></div>
+        <div class="gallery__item"><img src="img/117.jpg" alt="Cakes Photo"></div>
+        <div class="gallery__item"><img src="img/118.jpg" alt="Cakes Photo"></div>
+        <div class="gallery__item"><img src="img/119.jpg" alt="Cakes Photo"></div>
+        <div class="gallery__item"><img src="img/120.jpg" alt="Cakes Photo"></div>
+        <div class="gallery__item"><img src="img/121.jpg" alt="Cakes Photo"></div>
+        <div class="gallery__item"><img src="img/122.jpg" alt="Cakes Photo"></div>
+        <div class="gallery__item"><img src="img/123.jpg" alt="Cakes Photo"></div>
+        <div class="gallery__item"><img src="img/124.jpg" alt="Cakes Photo"></div>
+        <div class="gallery__item"><img src="img/125.jpg" alt="Cakes Photo"></div>
+        <div class="gallery__item"><img src="img/126.jpg" alt="Cakes Photo"></div>
+        <div class="gallery__item"><img src="img/127.jpg" alt="Cakes Photo"></div>
+        <div class="gallery__item"><img src="img/128.jpg" alt="Cakes Photo"></div>
+        <div class="gallery__item"><img src="img/129.jpg" alt="Cakes Photo"></div>
+        <div class="gallery__item"><img src="img/130.jpg" alt="Cakes Photo"></div>
+        <div class="gallery__item"><img src="img/131.jpg" alt="Cakes Photo"></div>
+    </div>
+
+
+
+</body>
+
+</html>
